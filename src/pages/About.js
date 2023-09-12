@@ -1,13 +1,12 @@
-import React from 'react'
-import Image from 'next/image'
-import img1 from "../images/img1111.png"
+import AboutBanner from '@/components/AboutBanner/AboutBanner'
+import AboutSection from '@/components/AboutSection/AboutSection'
 
 const About = () => {
   return (
     <main>
       
-      <div className='container-fluid'>
-      
+      <div className="max-w-screen-xl mx-auto">
+      <AboutBanner />
       </div>
     </main>
   )

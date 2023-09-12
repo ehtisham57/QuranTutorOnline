@@ -15,7 +15,7 @@
 }
 .aboutimage img {
   max-width: 100%;
-  height: auto;
+  height: 40dvh;
 }
 
 .mainHeading{
@@ -32,7 +32,7 @@
     padding-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .aboutsection {
     flex-direction: row;
     justify-content: space-between;

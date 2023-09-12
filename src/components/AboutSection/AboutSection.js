@@ -2,25 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import style from"./AboutSection.module.css"
 import { Button, Card } from 'react-bootstrap';
-import img1 from "../../images/img1111.png"
+import img1 from "../../images/img-02.jpg"
 import Link from 'next/link';
 
 const AboutSection = () => {
   return (
     <div className='container-fluid px-5 my-4 '>
-    
- {/*  <div className='flex row'>
-    <h1 className={Styles.AboutSection}>We Are a Team of Online Quran Tutors</h1>
-    <div className='right col-lg-6 col-sm-12'>
-    <Image src={img1} width={250} height={250} />
-    </div>
-    xxxxxxx
-    <div className='left col-sm-12'>
-
-    </div>
-  </div> */}
-
-
 <div className='flex row py-2'>
 <h1 className={`${style.mainHeading} font-serif text-center align-content-center py-5 my-3 font-bold`}> About Us</h1>
   <div className={`${style.aboutimage} col-lg-6` } >

@@ -4,6 +4,9 @@ import img1 from "../../images/img-02.jpg"
 import style from "./AboutBanner.module.css"
 import Link from 'next/link'
 const AboutBanner = () => {
+
+    console.log("hello")
+
   return (
     <div className='container-fluid mx-0 px-0'>
     <Image className={`${style.image}`} src={img1} width="50%" />
